@@ -1,0 +1,27 @@
+cd OneDrive/Documents/'Web devlopment'/'Git&Github'/'learn git again'
+
+touch third.txt
+
+git add .
+
+git commit -m "adding third.txt"
+
+touch fourth.txt
+
+git add fourth.txt
+
+git commit -m "adding fourth"
+
+git log
+
+git rm third.txt
+
+git add .
+
+git commit -m "removing third.txt"
+
+git log
+
+git config--global core.pager "cat"
+
+git config --global --l
